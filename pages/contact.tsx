@@ -48,6 +48,9 @@ export default function Contact() {
             >
               Send Inquiry
             </button>
+            <a href="/contact" className="text-gray-400 hover:text-white transition underline text-sm">
+              Contact →
+            </a>
           </form>
         </div>
       </main>
