@@ -20,7 +20,8 @@ export default function Home() {
         <meta name="description" content="Personal site for Kennedy Southern" />
       </Head>
 
-      <main className="bg-[#0d0d0d] text-white min-h-screen w-full flex items-center justify-center px-6">
+      {/* Hero Layout */}
+      <main className="bg-[#fdeef4] text-white min-h-screen w-full flex items-center justify-center px-6">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
 
           {/* PHOTO - LEFT SIDE */}
@@ -36,10 +37,12 @@ export default function Home() {
 
           {/* TEXT - RIGHT SIDE */}
           <div className="text-center md:text-left space-y-4">
-            <p className="text-gray-400 text-lg">Hi there, I&apos;m</p>
+            <p className="text-pink-500 text-lg font-medium">Hi there, I&apos;m</p>
             <h1 className="text-4xl sm:text-5xl font-bold">Kennedy Southern</h1>
-            <p className="text-[#6c63ff] text-xl sm:text-2xl font-medium">Data Analyst</p>
-
+            <div className="text-pink-500 text-xl sm:text-2xl font-semibold">
+              <Typewriter options={{ strings: ['Data Analyst'], ... }} />
+            </div>
+            
             {/* SOCIAL ICONS */}
             <div className="flex justify-center md:justify-start gap-6 pt-4 text-gray-400 text-xl">
               {/* LinkedIn */}
@@ -48,7 +51,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
-                className="hover:text-[#6c63ff] transition"
+                className="bg-pink-500 text-white p-2 rounded-full hover: bg-pink-600 transition"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M4.98 3.5c0 1.38-1.12 2.5-2.49 2.5C1.12 6 0 4.88 0 3.5S1.12 1 2.49 1C3.86 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.2h.1c.7-1.3 2.3-2.2 4.1-2.2 4.1 0 4.6 2.7 4.6 6.2V24h-5v-8.6c0-2-.7-3.4-2.5-3.4-1.4 0-2.2.9-2.5 1.8-.1.3-.1.7-.1 1v9.2h-5V8z"/>
@@ -59,7 +62,7 @@ export default function Home() {
               <a
                 href="mailto:kennedyannsouthern@gmail.com"
                 aria-label="Email"
-                className="hover:text-[#6c63ff] transition"
+                className="bg-pink-500 text-white p-2 rounded-full hover: bg-pink-600 transition"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M1.5 4.5h21a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-21A1.5 1.5 0 0 1 0 18V6a1.5 1.5 0 0 1 1.5-1.5zm0 1.5v.511l10.5 6.737 10.5-6.737V6h-21zm21 1.978-8.93 5.73a1.5 1.5 0 0 1-1.14.255 1.5 1.5 0 0 1-1.14-.255L1.5 7.978V18h21V7.978z" /> 
@@ -70,7 +73,7 @@ export default function Home() {
               <a
                 href="tel:15743614587"
                 aria-label="Phone"
-                className="hover:text-[#6c63ff] transition"
+                className="bg-pink-500 text-white p-2 rounded-full hover: bg-pink-600 transition"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1.003 1.003 0 0 1 1.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1c-9.39 0-17-7.61-17-17a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.35.26 2.67.76 3.88a1 1 0 0 1-.21 1.11l-2.2 2.2z" />
@@ -82,7 +85,7 @@ export default function Home() {
       </main>
              
         {/* ABOUT ME SECTION */}
-        <section id="about" className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
+        <section id="about" className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl space-y-8 text-left">
             <h2 className="text-3xl font-bold text-center">About Me</h2>
             <p className="text-gray-400 text-lg leading-relaxed">
@@ -98,7 +101,7 @@ export default function Home() {
         </section>
         
         {/* SKILLS SECTION */}
-        <section className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
+        <section className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl text-center space-y-8">
             <h2 className="text-3xl font-bold">Skills</h2>
             <p className="text-gray-400 text-lg leading-relaxed">
@@ -114,7 +117,7 @@ export default function Home() {
               ].map((skill) => (
                 <span
                   key={skill}
-                  className="px-4 py-2 rounded-full border border-gray-600 text-sm text-gray-200 hover:bg-[#6c63ff] hover:text-white transition"
+                  className="px-4 py-2 rounded-full bg-pink-500 text-white text-sm hover:bg-pink-600 transition"
                 >
                   {skill}
                 </span>
@@ -124,7 +127,7 @@ export default function Home() {
         </section>
         
         {/* EXPERIENCE SECTION */}
-        <section className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
+        <section className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl w-full space-y-12">
             <div className="text-center space-y-6">
               <h2 className="text-3xl font-bold">My Experiences</h2>
@@ -166,7 +169,7 @@ export default function Home() {
         </section>
         
         {/* CONTACT */}
-        <section id="contact" className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
+        <section id="contact" className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="w-full max-w-2xl space-y-12">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold">Contact</h2>
@@ -211,7 +214,7 @@ export default function Home() {
 
               <button
                 type="submit"
-                className="mt-4 w-full bg-white text-black py-2 px-4 rounded hover:bg-[#6c63ff] hover:text-white transition"
+                className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition"
               >
                 Send Inquiry
               </button>
