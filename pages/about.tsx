@@ -21,6 +21,9 @@ export default function About() {
           <p className="text-gray-400 text-lg leading-relaxed">
             I believe data can be a powerful force for good. I am committed to a career that blends scientific thinking with data-driven strategy, always seeking opportunities to learn, grow, and make a meaningful impact in health, science, and beyond.
           </p>
+          <a href="/about" className="text-gray-400 hover:text-white transition underline text-sm mt-2">
+            Learn more about me →
+          </a>
         </div>
       </main>
     </>
