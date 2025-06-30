@@ -10,8 +10,7 @@ export default function Home() {
     <meta name="description" content="Personal site for Kennedy Southern" />
   </Head>
 
-  {/* HERO */}
-<main className="bg-black text-white min-h-screen w-full">
+  <main className="bg-black text-white min-h-screen w-full">
   {/* Top Left Name (Header) */}
   <header className="absolute top-6 left-6 text-lg font-semibold tracking-tight">
     Kennedy Southern
@@ -31,7 +30,7 @@ export default function Home() {
       Data Analytics Professional applying data to solve real-world problems in health, science, and sustainability.
     </p>
 
-    {/* Social Icons */}
+    {/* Social Media Icons */}
     <div className="flex gap-6 pt-4">
       {/* Email */}
       <a href="mailto:kennedyannsouthern@gmail.com" aria-label="Email">
@@ -55,7 +54,7 @@ export default function Home() {
   </div>
 </main>
 
-{/* ABOUT ME SECTION */}
+{/* ABOUT ME */}
 <section className="bg-black text-white px-6 py-24 flex justify-center">
   <div className="max-w-2xl text-center space-y-6">
     <h2 className="text-3xl font-semibold">About Me</h2>
