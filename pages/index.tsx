@@ -25,7 +25,7 @@ export default function Home() {
             height={160}
             className="rounded-full border-2 border-white shadow-md"
           />
-          <h1 className="text-4xl sm:text-5xl font-bold">Hi there, I&apos;m Kennedy Southern</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold">Hi There, I&apos;m Kennedy Southern</h1>
           <p className="text-gray-400 text-lg max-w-xl">
             Data Analytics Professional applying data to solve real-world problems in health, science, and sustainability.
           </p>
