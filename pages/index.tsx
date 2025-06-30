@@ -96,7 +96,7 @@ export default function Home() {
         </div>
       </main>
              
-        {/* ABOUT ME SECTION */}
+        {/* ABOUT ME */}
         <section id="about" className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl space-y-8 text-left">
             <h2 className="text-3xl font-bold text-center text-white">I Love Data Analytics!</h2>
@@ -112,7 +112,7 @@ export default function Home() {
           </div>
         </section>
         
-        {/* SKILLS SECTION */}
+        {/* SKILLS */}
         <section className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl text-center space-y-8">
             <h2 className="text-3xl font-bold">Skills</h2>
@@ -138,7 +138,7 @@ export default function Home() {
           </div>
         </section>
         
-        {/* EXPERIENCE SECTION */}
+        {/* My EXPERIENCES */}
         <section className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl w-full space-y-12">
             <div className="text-center space-y-6">
@@ -158,28 +158,94 @@ export default function Home() {
                   <span className="text-sm text-gray-400">2021 – 2023</span>
                 </div>
                 <h3 className="text-lg font-semibold text-white">Data Analyst</h3>
-                <p className="text-sm text-gray-400 mb-2">Company One</p>
+                <p className="text-sm text-gray-400 mb-2">Shah Properties LLC</p>
                 <p className="text-sm text-gray-300">
-                  Collected, cleaned, and visualized health-related datasets to inform public policy and program development. Automated reports and worked with cross-functional teams to drive data-driven decisions.
+                  - Developed predictive models to forecast real estate availabilities, enhancing decision-making for property acquisitions and maximizing profitability.
                 </p>
+                <p className="text-sm text-gray-300">
+                  - Conducted data extraction and analysis from property listings to provide actionable insights for transitioning properties into tenant rentals.
+                </p>
+                <p className="text-sm text-gray-300">
+                  - Identified and engaged with prospective tenants for commercial real estate, contributing to occupancy rates and revenue growth.
+                </p>
+                <p className="text-sm text-gray-300">
+                - Analyzed and compared invoices against quotes for ongoing projects to ensure financial accuracy and cost control.
+                </p>  
               </div>
 
-              {/* Add more experience cards below */}
+              {/* Symbiosis */}
               <div className="relative border border-gray-700 rounded-xl p-6 bg-gray-900">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-gray-400">2019 – 2021</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white">Research Assistant</h3>
-                <p className="text-sm text-gray-400 mb-2">University Lab</p>
+                <h3 className="text-lg font-semibold text-white">Project Coordinator</h3>
+                <p className="text-sm text-gray-400 mb-2">Symbiosis</p>
                 <p className="text-sm text-gray-300">
-                  Conducted statistical analysis on biomedical datasets, prepared data for publication, and developed automated scripts in R and Python to streamline repetitive lab tasks.
+                  - Developed and implemented strategies to promote healthy living through innovative product solutions.
+                </p>
+                <p className="text-sm text-gray-300">
+                  - Designed and created eco-friendly and sustainable living spaces for both residential and commercial clients.
+                </p>
+                <p className="text-sm text-gray-300">
+                  - Collaborated with clients to integrate public health principles with interior design, aligning with personal, familial, or community health objectives.
+                </p>
+              </div>
+
+              {/* University of Michigan */}
+              <div className="relative border border-gray-700 rounded-xl p-6 bg-gray-900">
+                <div className="flex justify-between items-start mb-4">
+                  <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
+                  <span className="text-sm text-gray-400">2019 – 2021</span>
+                </div>
+                <h3 className="text-lg font-semibold text-white">Public Health Ambassador</h3>
+                <p className="text-sm text-gray-400 mb-2">University of Michigan, Ann Arbor</p>
+                <p className="text-sm text-gray-300">
+                  - Educated students about how to prevent the spread of COVID-19.
+                </p>
+                <p className="text-sm text-gray-300">
+                  - Designed informational guides about COVID-19.
+                </p>
+                <p className="text-sm text-gray-300">
+                  - Coordinated canvassing operations to monitor compliance with state, city, and university COVID-19 guidelines.
+                </p>
+              </div>
+
+              {/* Manchester University */}
+              <div className="relative border border-gray-700 rounded-xl p-6 bg-gray-900">
+                <div className="flex justify-between items-start mb-4">
+                  <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
+                  <span className="text-sm text-gray-400">2019 – 2021</span>
+                </div>
+                <h3 className="text-lg font-semibold text-white">Medical Practicum</h3>
+                <p className="text-sm text-gray-400 mb-2">Manchester University</p>
+                <p className="text-sm text-gray-300">
+                  - Studied the rural health care system.
+                </p>
+                <p className="text-sm text-gray-300">
+                  - Learned how to be resourceful with limited supplies.
+                </p>
+                <p className="text-sm text-gray-300">
+                  - Facilitated doctors in providing basic healthcare services.
                 </p>
               </div>
             </div>
           </div>
         </section>
         
+        {/* HIRING SECTION */}
+        <section className="bg-[#fdeef4] text-black px-6 py-24 flex justify-center">
+          <div className="text-center space-y-6">
+            <h2 className="text-3xl font-bold text-pink-500">I Am Available for Hire!</h2>
+            <a
+              href="#contact"
+              className="inline-block bg-pink-500 text-white text-lg font-medium px-6 py-3 rounded-full hover:bg-pink-600 transition"
+            >
+              Hire Me Now
+            </a>
+          </div>
+        </section>
+             
         {/* CONTACT */}
         <section id="contact" className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="w-full max-w-2xl space-y-12">
