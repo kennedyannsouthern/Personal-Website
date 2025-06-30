@@ -84,27 +84,33 @@ export default function Home() {
             </div>
 
             {/* Contact Form */}
-            <form className="space-y-4">
+            <form
               action="https://formspree.io/f/xanjvbvy"
               method="POST'
               className="space-y-4"
+            >
               <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
+              
               <div className="flex flex-col">
                 <label className="text-sm mb-1">Name</label>
                 <input type="text" name="name" className="p-2 bg-gray-900 border border-gray-700 rounded text-white" required />
               </div>
+              
               <div className="flex flex-col">
                 <label className="text-sm mb-1">Email</label>
                 <input type="email" name="email" className="p-2 bg-gray-900 border border-gray-700 rounded text-white" required />
               </div>
+              
               <div className="flex flex-col">
                 <label className="text-sm mb-1">Subject</label>
                 <input type="text" name="subject" className="p-2 bg-gray-900 border border-gray-700 rounded text-white" />
               </div>
+              
               <div className="flex flex-col">
                 <label className="text-sm mb-1">Message</label>
                 <textarea name="message" rows={4} className="p-2 bg-gray-900 border border-gray-700 rounded text-white" required />
               </div>
+              
               <button
                 type="submit"
                 className="mt-4 w-full bg-white text-black py-2 px-4 rounded hover:bg-gray-200 transition"
