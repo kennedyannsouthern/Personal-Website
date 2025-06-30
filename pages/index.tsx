@@ -11,11 +11,21 @@ export default function Home() {
       </Head>
 
       <main className="bg-black text-white min-h-screen w-full relative">
-        {/* Top Left Name */}
-        <header className="absolute top-6 left-6 text-lg font-semibold tracking-tight">
-          Kennedy Southern
-        </header>
-
+        {/* TOP NAV */}
+        <header className="absolute top-6 left-6 right-6 flex justify-between items-center px-4 sm:px-10">
+          {/* Logo / Name */}
+            <div className="text-lg font-semibold tracking-tight">
+              Kennedy Southern
+            </div>
+            
+            {/* Nav Links */}
+            <nav className="flex gap-6 text-sm text-gray-400">
+              <a href="/" className="hover:text-white transition">Home</a>
+              <a href="#about" className="hover:text-white transition">About Me</a>
+              <a href="#contact" className="hover:text-white transition">Contact</a>
+            </nav>
+          </header>
+        
         {/* Hero Layout */}
         <div className="h-screen flex flex-col justify-center items-center text-center space-y-6 px-4">
           <Image
@@ -52,7 +62,7 @@ export default function Home() {
         </div>
         
         {/* ABOUT ME SECTION */}
-        <section className="bg-black text-white px-6 py-24 flex justify-center">
+        <section id="about" className="bg-black text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl space-y-8 text-left">
             <h2 className="text-3xl font-bold text-center">About Me</h2>
             <p className="text-gray-400 text-lg leading-relaxed">
@@ -68,7 +78,7 @@ export default function Home() {
         </section>
         
         {/* CONTACT */}
-        <section className="bg-black text-white px-6 py-24 flex justify-center">
+        <section id="contact" className="bg-black text-white px-6 py-24 flex justify-center">
           <div className="w-full max-w-2xl space-y-12">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold">Contact</h2>
