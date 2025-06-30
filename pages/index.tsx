@@ -1,16 +1,16 @@
 
 import Head from 'next/head'
 import Image from 'next/image'
-<div className="relative">
-  <Image
-    src="/kennedy-headshot.png"
-    alt="Kennedy Southern"
-    width={300}
-    height={300}
-    className="rounded-full shadow-xl"
-    priority
-  />
-</div>
+  <div className="relative">
+    <Image
+      src="/kennedy-headshot.png"
+      alt="Kennedy Southern"
+      width={300}
+      height={300}
+      className="rounded-full shadow-xl"
+      priority
+    />
+  </div>
  
 export default function Home() {
   return (
@@ -51,7 +51,7 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
-                className="bg-pink-500 text-white p-2 rounded-full hover: bg-pink-600 transition"
+                className="bg-pink-500 text-white p-2 rounded-full hover:bg-pink-600 transition"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M4.98 3.5c0 1.38-1.12 2.5-2.49 2.5C1.12 6 0 4.88 0 3.5S1.12 1 2.49 1C3.86 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.2h.1c.7-1.3 2.3-2.2 4.1-2.2 4.1 0 4.6 2.7 4.6 6.2V24h-5v-8.6c0-2-.7-3.4-2.5-3.4-1.4 0-2.2.9-2.5 1.8-.1.3-.1.7-.1 1v9.2h-5V8z"/>
@@ -74,7 +74,7 @@ export default function Home() {
               <a
                 href="mailto:kennedyannsouthern@gmail.com"
                 aria-label="Email"
-                className="bg-pink-500 text-white p-2 rounded-full hover: bg-pink-600 transition"
+                className="bg-pink-500 text-white p-2 rounded-full hover:bg-pink-600 transition"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M1.5 4.5h21a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-21A1.5 1.5 0 0 1 0 18V6a1.5 1.5 0 0 1 1.5-1.5zm0 1.5v.511l10.5 6.737 10.5-6.737V6h-21zm21 1.978-8.93 5.73a1.5 1.5 0 0 1-1.14.255 1.5 1.5 0 0 1-1.14-.255L1.5 7.978V18h21V7.978z" /> 
@@ -85,7 +85,7 @@ export default function Home() {
               <a
                 href="tel:15743614587"
                 aria-label="Phone"
-                className="bg-pink-500 text-white p-2 rounded-full hover: bg-pink-600 transition"
+                className="bg-pink-500 text-white p-2 rounded-full hover:bg-pink-600 transition"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1.003 1.003 0 0 1 1.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1c-9.39 0-17-7.61-17-17a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.35.26 2.67.76 3.88a1 1 0 0 1-.21 1.11l-2.2 2.2z" />
@@ -124,7 +124,7 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-4 pt-4">
               {[
                 'R', 'SAS', 'SQL', 'Python', 'Excel', 'Tableau',
-                'Power BI', 'GitHub', 'Google Analytics', 'Microsoft Office'
+                'Power BI', 'GitHub', 'Google Analytics', 'Microsoft Office',
                 'JavaScript', 'Tailwind Css'
               ].map((skill) => (
                 <span
@@ -265,7 +265,7 @@ export default function Home() {
             {/* Contact Form */}
             <form
               action="https://formspree.io/f/xanjvbvy"
-              method="POST'
+              method="POST"
               className="space-y-4"
             >
               <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
