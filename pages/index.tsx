@@ -1,6 +1,16 @@
 
 import Head from 'next/head'
 import Image from 'next/image'
+<div className="relative">
+  <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#6c63ff] via-pink-500 to-purple-600 p-1 blur-md opacity-60" />
+  <Image
+    src="/kennedy-headshot.jpg"
+    alt="Kennedy Southern"
+    width={260}
+    height={260}
+    className="relative rounded-full border-2 border-white shadow-xl"
+  />
+</div>
 
 export default function Home() {
   return (
@@ -10,7 +20,7 @@ export default function Home() {
         <meta name="description" content="Personal site for Kennedy Southern" />
       </Head>
 
-      <main className="bg-black text-white min-h-screen w-full relative">
+      <main className="bg-[#0d0d0d] text-white min-h-screen w-full relative">
         {/* TOP NAV */}
         <header className="absolute top-6 left-6 right-6 flex justify-between items-center px-4 sm:px-10">
           {/* Logo / Name */}
@@ -20,9 +30,9 @@ export default function Home() {
             
             {/* Nav Links */}
             <nav className="flex gap-6 text-sm text-gray-400">
-              <a href="/" className="hover:text-white transition">Home</a>
-              <a href="#about" className="hover:text-white transition">About Me</a>
-              <a href="#contact" className="hover:text-white transition">Contact</a>
+              <a href="/" className="hover:text-[#6c63ff] transition">Home</a>
+              <a href="#about" className="hover:text-[#6c63ff] transition">About Me</a>
+              <a href="#contact" className="hover:text-[#6c63ff] transition">Contact</a>
             </nav>
           </header>
         
@@ -46,7 +56,7 @@ export default function Home() {
               href="https://www.linkedin.com/in/kennedy-southern-b2a8ab1a2/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-white transition"
+              className="hover:text-[#6c63ff] transition"
               aria-label="LinkedIn"
             >
               <svg
@@ -62,7 +72,7 @@ export default function Home() {
         </div>
         
         {/* ABOUT ME SECTION */}
-        <section id="about" className="bg-black text-white px-6 py-24 flex justify-center">
+        <section id="about" className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl space-y-8 text-left">
             <h2 className="text-3xl font-bold text-center">About Me</h2>
             <p className="text-gray-400 text-lg leading-relaxed">
@@ -78,7 +88,7 @@ export default function Home() {
         </section>
         
         {/* CONTACT */}
-        <section id="contact" className="bg-black text-white px-6 py-24 flex justify-center">
+        <section id="contact" className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
           <div className="w-full max-w-2xl space-y-12">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold">Contact</h2>
@@ -89,8 +99,8 @@ export default function Home() {
 
             {/* Contact Info */}
             <div className="text-center space-y-2 text-gray-300 text-sm">
-              <p>Email: <a href="mailto:kennedyannsouthern@gmail.com" className="underline hover:text-white">kennedyannsouthern@gmail.com</a></p>
-              <p>Phone: <a href="tel:+15743614587" className="underline hover:text-white">(574) 361-4587</a></p>
+              <p>Email: <a href="mailto:kennedyannsouthern@gmail.com" className="underline hover:text-[#6c63ff]">kennedyannsouthern@gmail.com</a></p>
+              <p>Phone: <a href="tel:+15743614587" className="underline hover:text-[#6c63ff]">(574) 361-4587</a></p>
             </div>
 
             {/* Contact Form */}
@@ -120,10 +130,10 @@ export default function Home() {
                 <label className="text-sm mb-1">Message</label>
                 <textarea name="message" rows={4} className="p-2 bg-gray-900 border border-gray-700 rounded text-white" required />
               </div>
-              
+
               <button
                 type="submit"
-                className="mt-4 w-full bg-white text-black py-2 px-4 rounded hover:bg-gray-200 transition"
+                className="mt-4 w-full bg-white text-black py-2 px-4 rounded hover:bg-[#6c63ff] hover:text-white transition"
               >
                 Send Inquiry
               </button>
