@@ -20,7 +20,7 @@ export default function Home() {
     <div className="flex justify-center space-x-6 text-sm">
       <a href="mailto:kennedyannsouthern@gmail.com" className="text-gray-300 hover:text-white transition">
         Email
-      </a>
+      </a> 
       <a
         href="https://www.linkedin.com/in/kennedy-southern-b2a8ab1a2/"
         target="_blank"
