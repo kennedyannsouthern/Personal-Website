@@ -110,6 +110,7 @@ export default function Home() {
               {[
                 'R', 'SAS', 'SQL', 'Python', 'Excel', 'Tableau',
                 'Power BI', 'GitHub', 'Google Analytics', 'Microsoft Office'
+                'JavaScript', 'Tailwind Css'
               ].map((skill) => (
                 <span
                   key={skill}
