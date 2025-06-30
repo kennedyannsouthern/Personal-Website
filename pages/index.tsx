@@ -11,7 +11,7 @@ import Image from 'next/image'
     className="relative rounded-full border-2 border-white shadow-xl"
   />
 </div>
-
+ 
 export default function Home() {
   return (
     <>
