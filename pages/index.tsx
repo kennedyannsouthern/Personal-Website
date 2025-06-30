@@ -21,9 +21,9 @@ export default function Home() {
           <Image
             src="/kennedy-headshot.jpg"
             alt="Kennedy Southern"
-            width={160}
-            height={160}
-            className="rounded-full border-2 border-white shadow-md"
+            width={260}
+            height={260}
+            className="rounded-full border-2 border-white shadow-x1"
           />
           <h1 className="text-4xl sm:text-5xl font-bold">Hi There, I&apos;m Kennedy Southern</h1>
           <p className="text-gray-400 text-lg max-w-xl">
