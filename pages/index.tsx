@@ -58,6 +58,18 @@ export default function Home() {
                 </svg>
               </a>
 
+              {/* Resume */}
+              <a
+                href="/Resume-LinkedIn.pdf"
+                download
+                aria-label="Download Resume"
+                className="bg-pink-500 text-white p-2 rounded-full hover:bg-pink-600 transition"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M5 20h14a1 1 0 0 0 1-1v-6h-2v5H6v-5H4v6a1 1 0 0 0 1 1zm7-18L5.33 9h3.67v4h4V9h3.67L12 2z" />
+                </svg>
+              </a>
+
               {/* Email */}
               <a
                 href="mailto:kennedyannsouthern@gmail.com"
