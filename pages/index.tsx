@@ -87,6 +87,31 @@ export default function Home() {
           </div>
         </section>
         
+        {/* SKILLS SECTION */}
+        <section className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
+          <div className="max-w-3xl text-center space-y-8">
+            <h2 className="text-3xl font-bold">Skills</h2>
+            <p className="text-gray-400 text-lg leading-relaxed">
+              Here you can see my skills. One of the fascinations of the data analytics world is the momentary changes of technologies, but I try to update my knowledge every day and experience new technologies.
+            </p>
+            
+            {/* Skill Bubbles */}
+            <div className="flex flex-wrap justify-center gap-4 pt-4">
+              {[
+                'R', 'SAS', 'SQL', 'Python', 'Excel', 'Tableau',
+                'Power BI', 'GitHub', 'Google Analytics', 'Microsoft Office'
+              ].map((skill) => (
+                <span
+                  key={skill}
+                  className="px-4 py-2 rounded-full border border-gray-600 text-sm text-gray-200 hover:bg-[#6c63ff] hover:text-white transition"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+                
         {/* CONTACT */}
         <section id="contact" className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
           <div className="w-full max-w-2xl space-y-12">
