@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <> 
+    <>
       <Head>
         <title>Kennedy Southern</title>
         <meta name="description" content="Personal site for Kennedy Southern" />
