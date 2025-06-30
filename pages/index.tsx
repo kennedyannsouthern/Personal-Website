@@ -42,17 +42,15 @@ export default function Home() {
     </div>
   </main>
 
-  {/* ABOUT */}
-  <section className="bg-black text-white px-6 py-24 flex justify-center">
-    <div className="max-w-3xl space-y-6">
-      <h2 className="text-3xl font-semibold">About</h2>
-      <p className="text-gray-400 leading-relaxed text-lg">
-        I'm a Data Analytics Professional with a background in biochemistry and public health, offering a unique
-        blend of scientific insight and analytical expertise. I specialize in transforming complex datasets into
-        actionable insights that support strategic decision-making and high-impact programs. My work is driven by
-        a passion for applying data to real-world challenges in health, science, and sustainability.
-      </p>
-    </div>
-  </section>
+{/* ABOUT ME SECTION */}
+<section className="bg-black text-white px-6 py-24 flex justify-center">
+  <div className="max-w-2xl text-center space-y-6">
+    <h2 className="text-3xl font-semibold">About Me</h2>
+    <p className="text-gray-400 text-lg leading-relaxed">
+      I’m a data-driven problem solver with a background in biochemistry and public health. I specialize in transforming complex datasets into actionable insights to improve outcomes in health, science, and sustainability.
+    </p>
+  </div>
+</section>
+
 </>
  
