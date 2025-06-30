@@ -111,7 +111,49 @@ export default function Home() {
             </div>
           </div>
         </section>
-                
+        
+        {/* EXPERIENCE SECTION */}
+        <section className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
+          <div className="max-w-3xl w-full space-y-12">
+            <div className="text-center space-y-6">
+              <h2 className="text-3xl font-bold">My Experiences</h2>
+              <p className="text-gray-400 text-lg leading-relaxed">
+                One of the most beautiful parts of every person's life, the part of their work life. I am very happy to have spent this part of my life with the people I loved, and it has made my interest in my work more and more.
+              </p>
+            </div>
+            
+            {/* Experience Cards */}
+            <div className="space-y-6">
+              {/* EXPERIENCE CARD */}
+              <div className="relative border border-gray-700 rounded-xl p-6 bg-gray-900">
+                {/* Top Row: Logo + Years */}
+                <div className="flex justify-between items-start mb-4">
+                  <img src="/logos/company1.png" alt="Company Logo" className="w-10 h-10 object-contain" />
+                  <span className="text-sm text-gray-400">2021 – 2023</span>
+                </div>
+                <h3 className="text-lg font-semibold text-white">Data Analyst</h3>
+                <p className="text-sm text-gray-400 mb-2">Company One</p>
+                <p className="text-sm text-gray-300">
+                  Collected, cleaned, and visualized health-related datasets to inform public policy and program development. Automated reports and worked with cross-functional teams to drive data-driven decisions.
+                </p>
+              </div>
+
+              {/* Add more experience cards below */}
+              <div className="relative border border-gray-700 rounded-xl p-6 bg-gray-900">
+                <div className="flex justify-between items-start mb-4">
+                  <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
+                  <span className="text-sm text-gray-400">2019 – 2021</span>
+                </div>
+                <h3 className="text-lg font-semibold text-white">Research Assistant</h3>
+                <p className="text-sm text-gray-400 mb-2">University Lab</p>
+                <p className="text-sm text-gray-300">
+                  Conducted statistical analysis on biomedical datasets, prepared data for publication, and developed automated scripts in R and Python to streamline repetitive lab tasks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
         {/* CONTACT */}
         <section id="contact" className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
           <div className="w-full max-w-2xl space-y-12">
