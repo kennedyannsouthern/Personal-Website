@@ -2,13 +2,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 <div className="relative">
-  <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#6c63ff] via-pink-500 to-purple-600 p-1 blur-md opacity-60" />
   <Image
-    src="/kennedy-headshot.jpg"
+    src="/kennedy-headshot.png"
     alt="Kennedy Southern"
-    width={260}
-    height={260}
-    className="relative rounded-full border-2 border-white shadow-xl"
+    width={300}
+    height={300}
+    className="rounded-full shadow-xl"
+    priority
   />
 </div>
  
