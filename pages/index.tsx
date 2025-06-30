@@ -60,7 +60,7 @@ export default function Home() {
 
               {/* Resume */}
               <a
-                href="/Resume-LinkedIn.pdf"
+                href="/Resume - LinkedIn.pdf"
                 download
                 aria-label="Download Resume"
                 className="bg-pink-500 text-white p-2 rounded-full hover:bg-pink-600 transition"
