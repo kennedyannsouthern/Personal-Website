@@ -23,10 +23,10 @@ export default function Home() {
       <main className="bg-[#0d0d0d] text-white min-h-screen w-full relative">
         {/* TOP NAV */}
         <header className="absolute top-6 left-6 right-6 flex justify-between items-center px-4 sm:px-10">
-          {/* Logo / Name */}
-            <div className="text-lg font-semibold tracking-tight">
-              Kennedy Southern
-            </div>
+          {/* Name */}
+          <div className="text-2xl font-bold tracking-tight p1-2">
+            Kennedy Southern
+          </div>
             
             {/* Nav Links */}
             <nav className="flex gap-6 text-sm text-gray-400">
@@ -50,7 +50,7 @@ export default function Home() {
             Data-Driven Solutions for a Better World
           </p>
 
-          {/* Social Media */}
+          {/* Social Media Icons */}
           <div className="flex gap-6 pt-4 text-gray-400 text-xl">
             <a
               href="https://www.linkedin.com/in/kennedy-southern-b2a8ab1a2/"
@@ -67,10 +67,23 @@ export default function Home() {
               >
                 <path d="M4.98 3.5c0 1.38-1.12 2.5-2.49 2.5C1.12 6 0 4.88 0 3.5S1.12 1 2.49 1C3.86 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.2h.1c.7-1.3 2.3-2.2 4.1-2.2 4.1 0 4.6 2.7 4.6 6.2V24h-5v-8.6c0-2-.7-3.4-2.5-3.4-1.4 0-2.2.9-2.5 1.8-.1.3-.1.7-.1 1v9.2h-5V8z" />
               </svg>
-            </a>
+            </a>          
+            <a
+              href="mailto:kennedyannsouthern@gmail.com"
+              aria-label="Email"
+              className="hover:text-[#6c63ff] transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M1.5 4.5h21a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-21A1.5 1.5 0 0 1 0 18V6a1.5 1.5 0 0 1 1.5-1.5zm0 1.5v.511l10.5 6.737 10.5-6.737V6h-21zm21 1.978-8.93 5.73a1.5 1.5 0 0 1-1.14.255 1.5 1.5 0 0 1-1.14-.255L1.5 7.978V18h21V7.978z" />
+              </svg>
+            </a>       
           </div>
-        </div>
-        
+             
         {/* ABOUT ME SECTION */}
         <section id="about" className="bg-[#0d0d0d] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl space-y-8 text-left">
