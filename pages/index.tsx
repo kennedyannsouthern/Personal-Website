@@ -85,6 +85,10 @@ export default function Home() {
 
             {/* Contact Form */}
             <form className="space-y-4">
+              action="https://formspree.io/f/xanjvbvy"
+              method="POST'
+              className="space-y-4"
+              <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
               <div className="flex flex-col">
                 <label className="text-sm mb-1">Name</label>
                 <input type="text" name="name" className="p-2 bg-gray-900 border border-gray-700 rounded text-white" required />
