@@ -10,13 +10,13 @@ export default function Home() {
     <meta name="description" content="Personal site for Kennedy Southern" />
   </Head>
 
-<main className="bg-black text-white min-h-screen w-full">
-  {/* Top Left Name (Header) */}
+<main className="bg-black text-white min-h-screen w-full relative">
+  {/* Top Left Name */}
   <header className="absolute top-6 left-6 text-lg font-semibold tracking-tight">
     Kennedy Southern
   </header>
 
-  {/* Hero Content */}
+  {/* Hero */}
   <div className="h-screen flex flex-col justify-center items-center space-y-6 px-4 text-center">
     <Image
       src="/kennedy-headshot.jpg"
@@ -35,7 +35,7 @@ export default function Home() {
       {/* Email */}
       <a href="mailto:kennedyannsouthern@gmail.com" aria-label="Email">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-400 hover:text-white transition" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4 4h16v16H4V4zm16 0L4 20" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 12H8m0 0l4-4m-4 4l4 4" />
         </svg>
       </a>
 
@@ -47,7 +47,7 @@ export default function Home() {
         aria-label="LinkedIn"
       >
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-400 hover:text-white transition" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.3c-.97 0-1.5-.64-1.5-1.4 0-.77.55-1.3 1.44-1.3.89 0 1.5.53 1.52 1.3 0 .76-.59 1.4-1.46 1.4zm13.5 11.3h-3v-5.5c0-1.1-.4-1.85-1.38-1.85-.75 0-1.2.51-1.4 1.01-.07.18-.09.43-.09.68v5.66h-3s.04-9.2 0-10.2h3v1.45c.4-.62 1.13-1.51 2.75-1.51 2 0 3.5 1.31 3.5 4.14v6.12z" />
+          <path d="M4.98 3.5c0 1.38-1.12 2.5-2.49 2.5C1.12 6 0 4.88 0 3.5S1.12 1 2.49 1C3.86 1 4.98 2.12 4.98 3.5zM0 8h5V24H0V8zm7.5 0h4.7v2.2h.1c.7-1.3 2.3-2.2 4.1-2.2C21 8 24 10 24 15v9h-5v-8c0-2-.7-3.4-2.5-3.4-1.4 0-2.2.9-2.5 1.8-.1.3-.1.7-.1 1v8.6h-5V8z"/>
         </svg>
       </a>
     </div>
