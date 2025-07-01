@@ -169,7 +169,7 @@ export default function Home() {
       </div>
         
         {/* ABOUT ME */}
-        <section id="about" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-start">
+        <section id="about" className="bg-white text-pink-500 px-6 py-24 flex justify-start">
           <div className="w-full md:w-1/2 space-y-8 text-left">
             <h2 className="text-3xl font-bold text-pink-500 ml-[90px]">I Love Data Analytics!</h2>
             <p className="text-pink-500 text-lg leading-relaxed ml-[90px]">
@@ -206,11 +206,11 @@ export default function Home() {
         </section>
         
         {/* My EXPERIENCES */}
-        <section className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
+        <section className="bg-white text-pink-500 px-6 py-24 flex justify-center">
           <div className="max-w-3xl w-full space-y-12">
             <div className="text-center space-y-6">
               <h2 className="text-3xl font-bold">My Experiences</h2>
-              <p className="text-gray-400 text-lg leading-relaxed">
+              <p className="text-pink-500 text-lg leading-relaxed">
                 One of the most beautiful parts of every person's life, the part of their work life. I am very happy to have spent this part of my life with the people I loved, and it has made my interest in my work more and more.
               </p>
             </div>
@@ -219,76 +219,76 @@ export default function Home() {
             <div className="flex flex-wrap gap-6">
               
               {/* Shah Properties LLC */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company1.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm font-semibold text-black">2021 – 2023</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Data Analyst - Shah Properties LLC</h3>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Developed predictive models to forecast real estate availabilities, enhancing decision-making for property acquisitions and maximizing profitability.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Conducted data extraction and analysis from property listings to provide actionable insights for transitioning properties into tenant rentals.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Identified and engaged with prospective tenants for commercial real estate, contributing to occupancy rates and revenue growth.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                 - Analyzed and compared invoices against quotes for ongoing projects to ensure financial accuracy and cost control.
                 </p>  
               </div>
               
               {/* Symbiosis */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm font-semibold text-black">2019 – 2021</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Project Coordinator - Symbiosis</h3>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Developed and implemented strategies to promote healthy living through innovative product solutions.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Designed and created eco-friendly and sustainable living spaces for both residential and commercial clients.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Collaborated with clients to integrate public health principles with interior design, aligning with personal, familial, or community health objectives.
                 </p>
               </div>
               
               {/* University of Michigan */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm font-semibold ext-black">2019 – 2021</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Public Health Ambassador - University of Michigan, Ann Arbor</h3>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Educated students about how to prevent the spread of COVID-19.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Designed informational guides about COVID-19.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Coordinated canvassing operations to monitor compliance with state, city, and university COVID-19 guidelines.
                 </p>
               </div>
               
               {/* Manchester University */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm font-semibold text-black">2019 – 2021</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Medical Practicum - Manchester University</h3>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Studied the rural health care system.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Learned how to be resourceful with limited supplies.
                 </p>
-                <p className="text-sm text-black">
+                <p className="text-sm text-gray">
                   - Facilitated doctors in providing basic healthcare services.
                 </p>
               </div>
