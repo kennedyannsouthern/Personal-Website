@@ -281,7 +281,6 @@ export default function Home() {
                 (574) 361-4587
               </a>
             </p>
-          </div>
             
             {/* Contact Form */}
             <form
