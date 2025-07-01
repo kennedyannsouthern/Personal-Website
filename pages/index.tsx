@@ -53,7 +53,7 @@ export default function Home() {
               alt="Kennedy Southern"
               width={300}
               height={300}
-              className="rounded-full shadow-xl ml-[100px]"
+              className="rounded-full shadow-xl ml-[150px]"
               priority
             />
           </div>
