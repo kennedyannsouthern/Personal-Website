@@ -48,7 +48,6 @@ export default function Home() {
             <button
               className="md:hidden text-pink-500 focus:outline-none"
               onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
-              aria-label="Toggle Menu"
             >
               <svg
                 className="h-8 w-8 text-pink-500"
@@ -62,31 +61,17 @@ export default function Home() {
                 />
               </svg>
             </button>
+          </div>
           
-          {/* Dropdown Menu for Mobile */}
-          {menuOpen && (
-            <div className="md:hidden px-6 py-2 flex flex-col gap-2 bg-[#fdeef4] shadow-md">
-              <a href="#home" className="px-4 py-2 rounded-full bg-white text-pink-500 font-semibold shadow hover:bg-pink-100 transition">
-                Home
-              </a>
-              <a href="#about" className="px-4 py-2 rounded-full bg-white text-pink-500 font-semibold shadow hover:bg-pink-100 transition">
-                About Me
-              </a>
-              <a href="#contact" className="px-4 py-2 rounded-full bg-white text-pink-500 font-semibold shadow hover:bg-pink-100 transition">
-                Contact
-              </a>
+          {/* Mobile Menu */}
+          {isMobileMenuOpen && (
+            <div className="md:hidden bg-[#fdeef4] shadow-inner px-4 pb-4">
+              <a href="#home" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
+              <a href="#about" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
+              <a href="#contact" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
             </div>
           )}
-
-        {/* Mobile Menu */}
-        {isMobileMenuOpen && (
-          <div className="md:hidden bg-[#fdeef4] shadow-inner px-4 pb-4">
-            <a href="#home" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
-            <a href="#about" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
-            <a href="#contact" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
-          </div>
-        )}
-      </div>
+        </div>
         
         {/* Hero Content Centered */}
         <div className="flex-1 flex items-center justify-center w-full">
