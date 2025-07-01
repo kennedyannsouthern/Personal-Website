@@ -14,13 +14,13 @@ export default function Home() {
       <main id="home" className="bg-[#fdeef4] text-pink-500 min-h-screen w-full flex flex-col justify-center px-6">
         {/* Nav Bar */}
         <div className="fixed top-0 left-0 right-0 z-50 bg-[#fdeef4] px-6 shadow-md">
-          <div className="w-full max-w-6xl mx-auto flex justify-between items-center py-4">
+          <div className="w-full max-w-6xl flex justify-between items-center pt-6 mb-12">
     
             {/* Left Side: Name */}
-            <h1 className="text-3xl font-bold text-pink-500 pl-4">Kennedy Southern</h1>
+            <h1 className="text-3xl sm:text-3xl font-bold ml-[120px]">Kennedy Southern</h1>
 
             {/* Right Side: Navigation Buttons */}
-            <nav className="flex gap-4 pr-4">
+            <nav className="flex gap-4">
               <a
                 href="#home"
                 className="px-6 py-2 rounded-full bg-white text-pink-500 font-semibold shadow hover:bg-pink-100 transition"
@@ -31,8 +31,8 @@ export default function Home() {
                 href="#about"
                 className="px-6 py-2 rounded-full bg-white text-pink-500 font-semibold shadow hover:bg-pink-100 transition"
               >
-
-              About Me
+          
+            {/* About Me */}
             </a>
             <a
               href="#contact"
