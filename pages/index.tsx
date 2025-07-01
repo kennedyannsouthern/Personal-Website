@@ -134,7 +134,7 @@ export default function Home() {
         </section>
         
         {/* SKILLS */}
-        <section className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
+        <section className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl text-center space-y-8">
             <h2 className="text-3xl font-bold">Skills</h2>
             <p className="text-gray-400 text-lg leading-relaxed">
