@@ -66,9 +66,9 @@ export default function Home() {
           {/* Mobile Menu Dropdown */}
           {isMobileMenuOpen && (
             <div className="md:hidden bg-[#fdeef4] shadow-inner px-6 pb-4">
-              <a href="#home" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
-              <a href="#about" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
-              <a href="#contact" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
+              <a href="#home" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
+              <a href="#about" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
+              <a href="#contact" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
             </div>
           )}
         </div>
