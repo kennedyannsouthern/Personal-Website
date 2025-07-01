@@ -291,7 +291,7 @@ export default function Home() {
               <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
               
               <div className="flex flex-col">
-                <label className="text-sm mb-1">Name</label>
+                <label className="text-sm mb-1 ml-[150px]">Name</label>
                 <input type="text" name="name" className="p-2 bg-white border border-gray-700 rounded text-white" required />
               </div>
               
