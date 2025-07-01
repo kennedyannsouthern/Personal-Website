@@ -329,7 +329,12 @@ export default function Home() {
 
         {/* CONTACT */}
         <section id="contact" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
-          <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between gap-12">
+          <div className="w-full flex flex-col items-center md:items-start text-center md:text-left mb-6">
+            <h2 className="text-3xl font-bold">Contact</h2>
+            <p className="text-pink-500 text-base mt-2">
+              Do you have any suggestions or questions? Fill out this form to reach out.
+            </p>
+          </div>
           
           {/* Contact Form - Left Side */}
           <form
