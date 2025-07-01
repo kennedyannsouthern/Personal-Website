@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 export default function Home() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  
   return (
     <>
       <Head>
@@ -44,28 +45,27 @@ export default function Home() {
               </a>
             </nav>
             
-            {/* Hamburger Menu for Mobile */}
+            {/* Mobile Menu */}
             <button
-              className="md:hidden text-pink-500 focus:outline-none"
+              className="md:hidden text-pink-500"
               onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle navigation"
             >
               <svg
-                className="h-8 w-8 text-pink-500"
+                className="w-6 h-6"
                 fill="currentColor"
-                viewBox="0 0 20 20"
+                viewBox="0 0 24 24"
               >
                 <path
-                  fillRule="evenodd" 
-                  d="M3 6h14M3 12h14M3 18h14"
-                  clipRule="evenodd"
+                  d="M4 6h16M4 12h16M4 18h16"
                 />
               </svg>
             </button>
           </div>
           
-          {/* Mobile Menu */}
+          {/* Mobile Menu Dropdown */}
           {isMobileMenuOpen && (
-            <div className="md:hidden bg-[#fdeef4] shadow-inner px-4 pb-4">
+            <div className="md:hidden bg-[#fdeef4] shadow-inner px-6 pb-4">
               <a href="#home" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
               <a href="#about" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
               <a href="#contact" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
