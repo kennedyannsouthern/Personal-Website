@@ -153,7 +153,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-6">
               
               {/* Shah Properties LLC */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-gray-900">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company1.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-black">2021 – 2023</span>
@@ -174,7 +174,7 @@ export default function Home() {
               </div>
               
               {/* Symbiosis */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-gray-900">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-black">2019 – 2021</span>
@@ -192,7 +192,7 @@ export default function Home() {
               </div>
               
               {/* University of Michigan */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-gray-900">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-black">2019 – 2021</span>
@@ -210,7 +210,7 @@ export default function Home() {
               </div>
               
               {/* Manchester University */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-gray-900">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-black">2019 – 2021</span>
