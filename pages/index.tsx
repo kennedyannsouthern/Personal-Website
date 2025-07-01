@@ -269,7 +269,7 @@ export default function Home() {
                 <label className="text-sm mb-1">Email</label>
                 <input type="email" name="email" className="p-2 bg-gray-900 border border-gray-700 rounded text-white" required />
               </div>
-              
+               
               <div className="flex flex-col">
                 <label className="text-sm mb-1">Subject</label>
                 <input type="text" name="subject" className="p-2 bg-gray-900 border border-gray-700 rounded text-white" />
