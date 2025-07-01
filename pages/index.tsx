@@ -12,7 +12,7 @@ export default function Home() {
       
       {/* Hero Layout */}
       <main id="home" className="bg-[#fdeef4] text-white min-h-screen w-full flex flex-col justify-center px-6">
-        {/* Top Bar */}
+        {/* Nav Bar */}
         <div className="w-full max-w-6xl flex justify-between items-center pt-6 mb-12">
     
           {/* Left Side: Name */}
@@ -41,10 +41,11 @@ export default function Home() {
           </nav>
         </div>
 
-      
-  {/* Main Hero Content */}
-  <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
-      
+    {/* Hero Content Centered */}
+    <div className="flex-1 flex items-center justify-center w-full">
+      <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
+        {/* PHOTO and TEXT go here as-is */}    
+        
           {/* PHOTO - LEFT SIDE */}
           <div className="flex-shrink-0">
             <Image
@@ -114,7 +115,9 @@ export default function Home() {
             </div>        
           </div>
         </div>
-
+      </div>
+    </div>
+      
 {/* ABOUT ME */}
         <section id="about" className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
           <div className="max-w-3xl space-y-8 text-left">
