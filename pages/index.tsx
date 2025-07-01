@@ -52,7 +52,7 @@ export default function Home() {
               aria-label="Toggle navigation"
             >
               <svg
-                className="w-6 h-6"
+                className="w-6 h-6 text-pink-500"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -65,7 +65,7 @@ export default function Home() {
           
           {/* Mobile Menu Dropdown */}
           {isMobileMenuOpen && (
-            <div className="md:hidden bg-[#fdeef4] shadow-inner px-6 pb-4">
+            <div className="md:hidden bg-[#fdeef4] shadow-inner px-6 pb-4 text-pink-500">
               <a href="#home" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
               <a href="#about" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
               <a href="#contact" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
