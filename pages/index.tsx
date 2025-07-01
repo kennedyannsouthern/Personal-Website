@@ -61,7 +61,7 @@ export default function Home() {
           {/* TEXT - RIGHT SIDE */}
           <div className="text-center md:text-left space-y-4">
             <p className="text-pink-500 text-lg font-medium">Hi there, I&apos;m</p>
-            <h1 className="text-4xl sm:text-5xl font-bold">Kennedy Southern</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold ml-[300px]">Kennedy Southern</h1>
             <p className="text-pink-500 text-xl sm:text-2xl font-semibold">Data Analyst</p>
             
             {/* SOCIAL ICONS */}
