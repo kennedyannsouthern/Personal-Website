@@ -6,6 +6,10 @@ import { useState } from 'react';
 export default function Home() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  
   return (
     <>
       <Head>
