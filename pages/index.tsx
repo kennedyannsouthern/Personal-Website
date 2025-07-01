@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useState } from 'react';
 
 export default function Home() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <>
       <Head>
@@ -17,11 +17,11 @@ export default function Home() {
         
         {/* Nav Bar */}
         <div className="fixed top-0 left-0 right-0 z-50 bg-[#fdeef4] px-6 shadow-md">
-          <div className="w-full max-w-6xl flex justify-between items-center py-2 mx-auto">
+          <div className="max-w-6xl mx-auto w-full px-4 flex justify-between items-center pt-4 pb-4">
             
             {/* Name */}
             <h1
-              className="text-3xl font-bold text-pink-500 whitespace-nowrap">
+              className="text-3xl font-bold text-pink-500">
               Kennedy Southern
             </h1>
             
@@ -44,24 +44,22 @@ export default function Home() {
               </a>
             </nav>
             
-            {/* Hamburger Menu Button (Mobile Only) */}
+            {/* Hamburger Menu for Mobile */}
             <button
-              className="md:hidden focus:outline-none"
-              onClick={() => setMenuOpen(!menuOpen)}
+              className="md:hidden text-pink-500 focus:outline-none"
+              onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle Menu"
             >
               <svg
-                className="w-6 h-6 text-pink-500"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8 text-pink-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
               >
-                {menuOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8h16M4 16h16" />
-                )}
+                <path
+                  fillRule="evenodd" 
+                  d="M3 6h14M3 12h14M3 18h14"
+                  clipRule="evenodd"
+                />
               </svg>
             </button>
           </div>
@@ -81,7 +79,17 @@ export default function Home() {
             </div>
           )}
         </div>
-          
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden bg-[#fdeef4] shadow-inner px-4 pb-4">
+            <a href="#home" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
+            <a href="#about" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
+            <a href="#contact" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
+           </div>
+         )}
+       </div>
+        
         {/* Hero Content Centered */}
         <div className="flex-1 flex items-center justify-center w-full">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
