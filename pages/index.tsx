@@ -158,8 +158,7 @@ export default function Home() {
                   <img src="/logos/company1.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-black">2021 – 2023</span>
                 </div>
-                <h3 className="text-lg font-semibold text-black">Data Analyst</h3>
-                <p className="text-sm text-black mb-2">Shah Properties LLC</p>
+                <h3 className="text-lg font-semibold text-black">Data Analyst - Shah Properties LLC</h3>
                 <p className="text-sm text-black">
                   - Developed predictive models to forecast real estate availabilities, enhancing decision-making for property acquisitions and maximizing profitability.
                 </p>
@@ -180,8 +179,7 @@ export default function Home() {
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-black">2019 – 2021</span>
                 </div>
-                <h3 className="text-lg font-semibold text-black">Project Coordinator</h3>
-                <p className="text-sm text-black mb-2">Symbiosis</p>
+                <h3 className="text-lg font-semibold text-black">Project Coordinator - Symbiosis</h3>
                 <p className="text-sm text-black">
                   - Developed and implemented strategies to promote healthy living through innovative product solutions.
                 </p>
@@ -199,8 +197,7 @@ export default function Home() {
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-black">2019 – 2021</span>
                 </div>
-                <h3 className="text-lg font-semibold text-black">Public Health Ambassador</h3>
-                <p className="text-sm text-black mb-2">University of Michigan, Ann Arbor</p>
+                <h3 className="text-lg font-semibold text-black">Public Health Ambassador - University of Michigan, Ann Arbor</h3>
                 <p className="text-sm text-black">
                   - Educated students about how to prevent the spread of COVID-19.
                 </p>
@@ -218,8 +215,7 @@ export default function Home() {
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm text-black">2019 – 2021</span>
                 </div>
-                <h3 className="text-lg font-semibold text-black">Medical Practicum</h3>
-                <p className="text-sm text-black mb-2">Manchester University</p>
+                <h3 className="text-lg font-semibold text-black">Medical Practicum - Manchester University</h3>
                 <p className="text-sm text-black">
                   - Studied the rural health care system.
                 </p>
