@@ -156,7 +156,7 @@ export default function Home() {
               <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company1.png" alt="Company Logo" className="w-10 h-10 object-contain" />
-                  <span className="text-sm text-black">2021 – 2023</span>
+                  <span className="text-sm font-semibold text-black">2021 – 2023</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Data Analyst - Shah Properties LLC</h3>
                 <p className="text-sm text-black">
@@ -177,7 +177,7 @@ export default function Home() {
               <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
-                  <span className="text-sm text-black">2019 – 2021</span>
+                  <span className="text-sm font-semibold text-black">2019 – 2021</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Project Coordinator - Symbiosis</h3>
                 <p className="text-sm text-black">
@@ -195,7 +195,7 @@ export default function Home() {
               <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
-                  <span className="text-sm text-black">2019 – 2021</span>
+                  <span className="text-sm font-semibold ext-black">2019 – 2021</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Public Health Ambassador - University of Michigan, Ann Arbor</h3>
                 <p className="text-sm text-black">
@@ -213,7 +213,7 @@ export default function Home() {
               <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
-                  <span className="text-sm text-black">2019 – 2021</span>
+                  <span className="text-sm font-semibold text-black">2019 – 2021</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Medical Practicum - Manchester University</h3>
                 <p className="text-sm text-black">
