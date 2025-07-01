@@ -267,9 +267,6 @@ export default function Home() {
           <div className="w-full max-w-2xl space-y-12">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold">Contact</h2>
-              <p className="text-gray-400 text-lg">
-                Feel free to reach out by filling out the form or contacting me directly.
-              </p>
             </div>
 
             {/* Contact Info */}
