@@ -270,58 +270,62 @@ export default function Home() {
           <form
             action="https://formspree.io/f/xanjvbvy"
             method="POST"
-            className="space-y-4 flex-1 ml-[100px]"
+            className="space-y-4 flex-1"
           >
-            <h2 className="text-3xl font-bold mb-6 ml-[100px]">Contact</h2>
+            <h2 className="text-3xl font-bold mb-6">Contact</h2>
             <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
-            
+
             <div className="flex flex-col">
-              <label className="text-sm mb-1 ml-[100px]">Name</label>
+              <label className="text-sm mb-1">Name</label>
               <input
                 type="text"
                 name="name"
-                className="p-2 bg-white border border-gray-700 rounded text-white ml-[100px]"
+                placeholder="Full name"
+                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
                 required
               />
             </div>
-            
-            <div className="flex flex-col ml-[100px]">
+
+            <div className="flex flex-col">
               <label className="text-sm mb-1">Email</label>
               <input
                 type="email"
                 name="email"
-                className="p-2 bg-white border border-gray-700 rounded text-white"
+                placeholder="Email address"
+                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
                 required
               />
             </div>
-            
-            <div className="flex flex-col ml-[100px]">
+
+            <div className="flex flex-col">
               <label className="text-sm mb-1">Subject</label>
               <input
                 type="text"
                 name="subject"
-                className="p-2 bg-white border border-gray-700 rounded text-white"
+                placeholder="Subject"
+                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
               />
             </div>
-      
-            <div className="flex flex-col ml-[100px]">
+
+            <div className="flex flex-col">
               <label className="text-sm mb-1">Message</label>
               <textarea
                 name="message"
                 rows={4}
-                className="p-2 bg-white border border-gray-700 rounded text-white"
+                placeholder="Type message"
+                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
                 required
               />
             </div>
-            
+          
             <button
               type="submit"
-              className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition ml-[100px]"
+              className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition"
             >
               Send Inquiry
             </button>
           </form>
-          
+                    
           {/* Contact Info - Right Side */}
           <div className="flex-1 space-y-4 mt-10 md:mt-20">
             <p className="flex items-center gap-3 text-sm ml-[100px]">
