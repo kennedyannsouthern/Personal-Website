@@ -296,23 +296,23 @@ export default function Home() {
               </div>
               
               <div className="flex flex-col">
-                <label className="text-sm mb-1">Email</label>
-                <input type="email" name="email" className="p-2 bg-white border border-gray-700 rounded text-white" required />
+                <label className="text-sm mb-1 ml-[150px]">Email</label>
+                <input type="email" name="email" className="p-2 bg-white border border-gray-700 rounded text-white ml-[150px]" required />
               </div>
                
               <div className="flex flex-col">
-                <label className="text-sm mb-1">Subject</label>
-                <input type="text" name="subject" className="p-2 bg-white border border-gray-700 rounded text-white" />
+                <label className="text-sm mb-1 ml-[150px]">Subject</label>
+                <input type="text" name="subject" className="p-2 bg-white border border-gray-700 rounded text-white ml-[150px]" />
               </div>
               
               <div className="flex flex-col">
-                <label className="text-sm mb-1">Message</label>
-                <textarea name="message" rows={4} className="p-2 bg-white border border-gray-700 rounded text-white" required />
+                <label className="text-sm mb-1 ml-[150px]">Message</label>
+                <textarea name="message" rows={4} className="p-2 bg-white border border-gray-700 rounded text-white ml-[150px]" required />
               </div>
 
               <button
                 type="submit"
-                className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition"
+                className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition ml-[150px]"
               >
                 Send Inquiry
               </button>
