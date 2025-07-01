@@ -118,8 +118,8 @@ export default function Home() {
       </div>
       
         {/* ABOUT ME */}
-        <section id="about" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
-          <div className="text-center md:text-left space-y-4">
+        <section id="about" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-start">
+          <div className="w-full md:w-1/2 space-y-8 text-left">
             <h2 className="text-3xl font-bold text-pink-500 ml-[90px]">I Love Data Analytics!</h2>
             <p className="text-pink-500 text-lg leading-relaxed ml-[90px]">
               I am a data analytics professional with a strong foundation in biochemistry and public health. My mission is to use data to improve decision-making and promote healthier, more sustainable outcomes across industries. Growing up in a small Midwestern town, I developed a deep appreciation for nature and lifelong curiosity about how the world works. Outside of work, I enjoy hiking, backpacking, kayaking, skiing — anything that connects me to the outdoors. I also value learning through books, film, and new experiences that broaden my thinking. I believe data can be a powerful force for good. I am committed to a career that blends scientific thinking with data-driven strategy, always seeking opportunities to learn, grow, and make a meaningful impact in health, science, and beyond.
