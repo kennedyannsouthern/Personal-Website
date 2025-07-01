@@ -264,17 +264,25 @@ export default function Home() {
              
         {/* CONTACT */}
         <section id="contact" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
-          <div className="w-full max-w-2xl space-y-12">
-            <div className="space-y-4 text-center">
-              <h2 className="text-3xl font-bold">Contact</h2>
-            </div>
-
-            {/* Contact */}
-            <div className="text-center space-y-2 text-pink-500 text-sm">
-              <p> <a href="mailto:kennedyannsouthern@gmail.com" className="hover:text-pink-500">kennedyannsouthern@gmail.com</a></p>
-              <p> <a href="tel:+15743614587" className="hover:text-pink-500">(574) 361-4587</a></p>
-            </div>
-
+          <div className="text-left space-y-2 text-sm text-pink-500">
+            <p className="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M1.5 4.5h21a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-21A1.5 1.5 0 0 1 0 18V6a1.5 1.5 0 0 1 1.5-1.5zm0 1.5v.511l10.5 6.737 10.5-6.737V6h-21zm21 1.978-8.93 5.73a1.5 1.5 0 0 1-1.14.255 1.5 1.5 0 0 1-1.14-.255L1.5 7.978V18h21V7.978z" />
+              </svg>
+              <a href="mailto:kennedyannsouthern@gmail.com" className="underline hover:text-pink-600">
+                kennedyannsouthern@gmail.com
+              </a>
+            </p>
+            <p className="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1.003 1.003 0 0 1 1.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1c-9.39 0-17-7.61-17-17a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.35.26 2.67.76 3.88a1 1 0 0 1-.21 1.11l-2.2 2.2z" />
+              </svg>
+              <a href="tel:+15743614587" className="underline hover:text-pink-600">
+                (574) 361-4587
+              </a>
+            </p>
+          </div>
+            
             {/* Contact Form */}
             <form
               action="https://formspree.io/f/xanjvbvy"
