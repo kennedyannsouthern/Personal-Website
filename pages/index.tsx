@@ -156,20 +156,20 @@ export default function Home() {
               <div className="relative border border-gray-700 rounded-xl p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company1.png" alt="Company Logo" className="w-10 h-10 object-contain" />
-                  <span className="text-sm text-gray-400">2021 – 2023</span>
+                  <span className="text-sm text-black">2021 – 2023</span>
                 </div>
-                <h3 className="text-lg font-semibold text-pink-500">Data Analyst</h3>
-                <p className="text-sm text-gray-400 mb-2">Shah Properties LLC</p>
-                <p className="text-sm text-gray-300">
+                <h3 className="text-lg font-semibold text-black">Data Analyst</h3>
+                <p className="text-sm text-black mb-2">Shah Properties LLC</p>
+                <p className="text-sm text-black">
                   - Developed predictive models to forecast real estate availabilities, enhancing decision-making for property acquisitions and maximizing profitability.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                   - Conducted data extraction and analysis from property listings to provide actionable insights for transitioning properties into tenant rentals.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                   - Identified and engaged with prospective tenants for commercial real estate, contributing to occupancy rates and revenue growth.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                 - Analyzed and compared invoices against quotes for ongoing projects to ensure financial accuracy and cost control.
                 </p>  
               </div>
@@ -178,17 +178,17 @@ export default function Home() {
               <div className="relative border border-gray-700 rounded-xl p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
-                  <span className="text-sm text-gray-400">2019 – 2021</span>
+                  <span className="text-sm text-black">2019 – 2021</span>
                 </div>
-                <h3 className="text-lg font-semibold text-pink-500">Project Coordinator</h3>
-                <p className="text-sm text-gray-400 mb-2">Symbiosis</p>
-                <p className="text-sm text-gray-300">
+                <h3 className="text-lg font-semibold text-black">Project Coordinator</h3>
+                <p className="text-sm text-black mb-2">Symbiosis</p>
+                <p className="text-sm text-black">
                   - Developed and implemented strategies to promote healthy living through innovative product solutions.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                   - Designed and created eco-friendly and sustainable living spaces for both residential and commercial clients.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                   - Collaborated with clients to integrate public health principles with interior design, aligning with personal, familial, or community health objectives.
                 </p>
               </div>
@@ -197,17 +197,17 @@ export default function Home() {
               <div className="relative border border-gray-700 rounded-xl p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
-                  <span className="text-sm text-gray-400">2019 – 2021</span>
+                  <span className="text-sm text-black">2019 – 2021</span>
                 </div>
-                <h3 className="text-lg font-semibold text-pink-500">Public Health Ambassador</h3>
-                <p className="text-sm text-gray-400 mb-2">University of Michigan, Ann Arbor</p>
-                <p className="text-sm text-gray-300">
+                <h3 className="text-lg font-semibold text-black">Public Health Ambassador</h3>
+                <p className="text-sm text-black mb-2">University of Michigan, Ann Arbor</p>
+                <p className="text-sm text-black">
                   - Educated students about how to prevent the spread of COVID-19.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                   - Designed informational guides about COVID-19.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                   - Coordinated canvassing operations to monitor compliance with state, city, and university COVID-19 guidelines.
                 </p>
               </div>
@@ -216,17 +216,17 @@ export default function Home() {
               <div className="relative border border-gray-700 rounded-xl p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
-                  <span className="text-sm text-gray-400">2019 – 2021</span>
+                  <span className="text-sm text-black">2019 – 2021</span>
                 </div>
-                <h3 className="text-lg font-semibold text-pink-500">Medical Practicum</h3>
-                <p className="text-sm text-gray-400 mb-2">Manchester University</p>
-                <p className="text-sm text-gray-300">
+                <h3 className="text-lg font-semibold text-black">Medical Practicum</h3>
+                <p className="text-sm text-black mb-2">Manchester University</p>
+                <p className="text-sm text-black">
                   - Studied the rural health care system.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                   - Learned how to be resourceful with limited supplies.
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-black">
                   - Facilitated doctors in providing basic healthcare services.
                 </p>
               </div>
