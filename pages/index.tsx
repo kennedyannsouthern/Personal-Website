@@ -294,7 +294,11 @@ export default function Home() {
               {/* Manchester University */}
               <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4">
-                  <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
+                  <img
+                    src="/logos/MU.png"
+                    alt="Company Logo"
+                    className="w-10 h-10 object-contain"
+                  />
                   <span className="bg-pink-100 text-pink-600 font-bold text-xs px-3 py-1 rounded-full shadow-sm">2018 – 2018</span>
                 </div>
                 <h3 className="text-lg font-semibold text-black">Medical Practicum - Manchester University</h3>
