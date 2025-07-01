@@ -310,17 +310,23 @@ export default function Home() {
         
         {/* HIRING SECTION */}
         <section className="bg-[#fdeef4] text-black px-6 py-24 flex justify-center">
-          <div className="text-center space-y-6">
-            <h2 className="text-3xl font-bold text-pink-500">I Am Available for Hire!</h2>
+          <div className="w-full max-w-6xl flex flex-col-reverse md:flex-row items-center justify-between gap-6 text-center md:text-left">
+            
+            {/* Text on the left (or top on mobile) */}
+            <h2 className="text-3xl font-bold text-pink-500">
+              I Am Available for Hire!
+            </h2>
+        
+            {/* Button on the right (or bottom on mobile) */}
             <a
               href="#contact"
-              className="inline-block bg-pink-500 text-white text-lg font-medium px-6 py-3 rounded-full hover:bg-pink-600 transition"
+              className="bg-pink-500 text-white text-lg font-medium px-6 py-3 rounded-full hover:bg-pink-600 transition"
             >
               Hire Me Now
             </a>
           </div>
         </section>
-        
+
         {/* CONTACT */}
         <section id="contact" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
           <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between gap-12">
@@ -331,7 +337,7 @@ export default function Home() {
             method="POST"
             className="space-y-4 flex-1"
           >
-            <h2 className="text-3xl font-bold mb-6">Contact</h2>
+            <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Contact</h2>
             <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
 
             <div className="flex flex-col">
