@@ -316,7 +316,7 @@ export default function Home() {
             
             <button
               type="submit"
-              className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition"
+              className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition ml-[100px]"
             >
               Send Inquiry
             </button>
