@@ -41,10 +41,10 @@ export default function Home() {
           </nav>
         </div>
 
-    {/* Hero Content Centered */}
-    <div className="flex-1 flex items-center justify-center w-full">
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
-        {/* PHOTO and TEXT go here as-is */}    
+        {/* Hero Content Centered */}
+        <div className="flex-1 flex items-center justify-center w-full">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
+            {/* PHOTO and TEXT go here as-is */}    
         
           {/* PHOTO - LEFT SIDE */}
           <div className="flex-shrink-0">
@@ -115,8 +115,8 @@ export default function Home() {
             </div>        
           </div>
         </div>
-      </div>
-    </div>
+          </div>
+        </div>
       
 {/* ABOUT ME */}
         <section id="about" className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
