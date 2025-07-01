@@ -57,15 +57,20 @@ export default function Home() {
               className="md:hidden text-black"
               onClick={toggleMenu}
             >
-              <svg
-                className="w-6 h-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+              {isMobileMenuOpen ? (
+                <svg
+                  className="w-6 h-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path 
+                    d="M6 18L18 6M6 6l12 12" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    strokeLinecap="round"
+                  />
+                </svg>
+              ) : (
             </button>
           </div>
           
@@ -81,26 +86,25 @@ export default function Home() {
         
         {/* Hero Content Centered */}
         <div className="flex-1 flex items-center justify-center w-full">
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
-            {/* PHOTO and TEXT go here as-is */}    
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full px-6">
         
-          {/* PHOTO - LEFT SIDE */}
+          {/* LEFT SIDE - Photo */}
           <div className="flex-shrink-0">
             <Image
               src="/kennedy-headshot.png"
               alt="Kennedy Southern"
               width={300}
               height={300}
-              className="rounded-full shadow-xl ml-[150px]"
+              className="rounded-full shadow-xl"
               priority
             />
           </div>
           
-          {/* TEXT - RIGHT SIDE */}
+          {/* RIGHT SIDE - Text */}
           <div className="text-center md:text-left space-y-4">
-            <p className="text-pink-500 text-lg font-medium ml-[100px]">Hi there, I&apos;m</p>
-            <h1 className="text-4xl sm:text-5xl font-bold ml-[100px]">Kennedy Southern</h1>
-            <p className="text-pink-500 text-xl sm:text-2xl font-semibold ml-[100px]">Data Analyst</p>
+            <p className="text-pink-500 text-lg font-medium">Hi there, I&apos;m</p>
+            <h1 className="text-4xl sm:text-5xl font-bold">Kennedy Southern</h1>
+            <p className="text-pink-500 text-xl sm:text-2xl font-semibold">Data Analyst</p>
                 
             {/* SOCIAL ICONS */}
             <div className="flex justify-center md:justify-start gap-6 pt-4 text-gray-400 text-xl">
@@ -227,7 +231,7 @@ export default function Home() {
               </div>
               
               {/* Symbiosis */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm font-semibold text-black">2019 – 2021</span>
@@ -245,7 +249,7 @@ export default function Home() {
               </div>
               
               {/* University of Michigan */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm font-semibold ext-black">2019 – 2021</span>
@@ -263,7 +267,7 @@ export default function Home() {
               </div>
               
               {/* Manchester University */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white">
+              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="text-sm font-semibold text-black">2019 – 2021</span>
