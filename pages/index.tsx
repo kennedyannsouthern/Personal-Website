@@ -20,7 +20,10 @@ export default function Home() {
           <div className="w-full max-w-6xl flex justify-between items-center py-2 mx-auto">
             
             {/* Name */}
-            <h1 className="text-2x1 font-bold text-pink-500 whitespace-nowrap">Kennedy Southern</h1>
+            <h1
+              className="text-3x1 font-bold text-pink-500 whitespace-nowrap">
+              Kennedy Southern
+            </h1>
             
             {/* Desktop Nav */}
             <nav className="hidden md:flex gap-4">
