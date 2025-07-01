@@ -252,7 +252,7 @@ export default function Home() {
         {/* HIRING SECTION */}
         <section className="bg-[#fdeef4] text-black px-6 py-24 flex justify-center">
           <div className="text-center space-y-6">
-            <h2 className="text-3xl font-bold text-pink-500">I Am Available for Hire!</h2>
+            <h2 className="text-3xl font-bold text-white">I Am Available for Hire!</h2>
             <a
               href="#contact"
               className="inline-block bg-pink-500 text-pink-500 text-lg font-medium px-6 py-3 rounded-full hover:bg-pink-600 transition"
