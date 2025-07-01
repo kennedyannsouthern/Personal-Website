@@ -4,10 +4,8 @@ import Image from 'next/image'
 import { useState } from 'react';
 
 export default function Home() {
-  const toggleMenu = () => {
-  setMobileMenuOpen(!isMobileMenuOpen);
-  };
-  
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const toggleMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
