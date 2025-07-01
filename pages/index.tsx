@@ -62,7 +62,6 @@ export default function Home() {
                 />
               </svg>
             </button>
-          </div>
           
           {/* Dropdown Menu for Mobile */}
           {menuOpen && (
@@ -78,7 +77,6 @@ export default function Home() {
               </a>
             </div>
           )}
-        </div>
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
@@ -86,9 +84,9 @@ export default function Home() {
             <a href="#home" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
             <a href="#about" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
             <a href="#contact" className="block px-4 py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
-           </div>
-         )}
-       </div>
+          </div>
+        )}
+      </div>
         
         {/* Hero Content Centered */}
         <div className="flex-1 flex items-center justify-center w-full">
