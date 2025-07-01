@@ -280,7 +280,7 @@ export default function Home() {
               <input
                 type="text"
                 name="name"
-                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
+                className="p-2 bg-white border border-gray-700 rounded text-white"
                 required
               />
             </div>
@@ -290,7 +290,7 @@ export default function Home() {
               <input
                 type="email"
                 name="email"
-                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
+                className="p-2 bg-white border border-gray-700 rounded text-white"
                 required
               />
             </div>
@@ -300,7 +300,7 @@ export default function Home() {
               <input
                 type="text"
                 name="subject"
-                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
+                className="p-2 bg-white border border-gray-700 rounded text-white"
               />
             </div>
       
@@ -309,7 +309,7 @@ export default function Home() {
               <textarea
                 name="message"
                 rows={4}
-                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
+                className="p-2 bg-white border border-gray-700 rounded text-white"
                 required
               />
             </div>
