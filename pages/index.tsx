@@ -83,7 +83,6 @@ export default function Home() {
             </div>        
           </div>
         </div>
-      </main>
 
 {/* ABOUT ME */}
         <section id="about" className="bg-[#fdeef4] text-white px-6 py-24 flex justify-center">
