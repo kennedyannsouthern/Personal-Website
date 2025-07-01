@@ -53,16 +53,16 @@ export default function Home() {
               alt="Kennedy Southern"
               width={300}
               height={300}
-              className="rounded-full shadow-xl"
+              className="rounded-full shadow-xl ml-[100px]"
               priority
             />
           </div>
           
           {/* TEXT - RIGHT SIDE */}
           <div className="text-center md:text-left space-y-4">
-            <p className="text-pink-500 text-lg font-medium">Hi there, I&apos;m</p>
+            <p className="text-pink-500 text-lg font-medium ml-[300px]">Hi there, I&apos;m</p>
             <h1 className="text-4xl sm:text-5xl font-bold ml-[300px]">Kennedy Southern</h1>
-            <p className="text-pink-500 text-xl sm:text-2xl font-semibold">Data Analyst</p>
+            <p className="text-pink-500 text-xl sm:text-2xl font-semibold ml-[300px]">Data Analyst</p>
             
             {/* SOCIAL ICONS */}
             <div className="flex justify-center md:justify-start gap-6 pt-4 text-gray-400 text-xl">
