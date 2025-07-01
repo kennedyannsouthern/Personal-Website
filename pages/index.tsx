@@ -20,7 +20,10 @@ export default function Home() {
       </Head>
       
       {/* Hero Layout */}
-      <main id="home" className="bg-[#fdeef4] text-pink-500 min-h-screen w-full flex flex-col justify-center px-6">
+      <main
+        id="home"
+        className="bg-[#fdeef4] text-pink-500 min-h-screen w-full flex flex-col justify-center px-6 pt-20"
+      >
         
         {/* Nav Bar */}
         <div className="fixed top-0 left-0 right-0 z-50 bg-[#fdeef4] px-6 shadow-md">
