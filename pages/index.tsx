@@ -14,10 +14,10 @@ export default function Home() {
       <main id="home" className="bg-[#fdeef4] text-pink-500 min-h-screen w-full flex flex-col justify-center px-6">
         {/* Nav Bar */}
         <div className="w-full max-w-6xl flex justify-between items-center pt-6 mb-12">
-    
+          
           {/* Left Side: Name */}
           <h1 className="text-3xl sm:text-3xl font-bold ml-[120px]">Kennedy Southern</h1>
-
+          
           {/* Right Side: Navigation Buttons */}
           <nav className="flex gap-4">
             <a
@@ -40,7 +40,7 @@ export default function Home() {
             </a>
           </nav>
         </div>
-
+        
         {/* Hero Content Centered */}
         <div className="flex-1 flex items-center justify-center w-full">
           <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
@@ -63,7 +63,7 @@ export default function Home() {
             <p className="text-pink-500 text-lg font-medium ml-[100px]">Hi there, I&apos;m</p>
             <h1 className="text-4xl sm:text-5xl font-bold ml-[100px]">Kennedy Southern</h1>
             <p className="text-pink-500 text-xl sm:text-2xl font-semibold ml-[100px]">Data Analyst</p>
-            
+                
             {/* SOCIAL ICONS */}
             <div className="flex justify-center md:justify-start gap-6 pt-4 text-gray-400 text-xl">
               {/* LinkedIn */}
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+        
         {/* ABOUT ME */}
         <section id="about" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-start">
           <div className="w-full md:w-1/2 space-y-8 text-left">
@@ -188,7 +188,7 @@ export default function Home() {
                 - Analyzed and compared invoices against quotes for ongoing projects to ensure financial accuracy and cost control.
                 </p>  
               </div>
-
+              
               {/* Symbiosis */}
               <div className="relative border border-gray-700 rounded-xl p-6 bg-gray-900">
                 <div className="flex justify-between items-start mb-4">
@@ -207,7 +207,7 @@ export default function Home() {
                   - Collaborated with clients to integrate public health principles with interior design, aligning with personal, familial, or community health objectives.
                 </p>
               </div>
-
+              
               {/* University of Michigan */}
               <div className="relative border border-gray-700 rounded-xl p-6 bg-gray-900">
                 <div className="flex justify-between items-start mb-4">
@@ -226,7 +226,7 @@ export default function Home() {
                   - Coordinated canvassing operations to monitor compliance with state, city, and university COVID-19 guidelines.
                 </p>
               </div>
-
+              
               {/* Manchester University */}
               <div className="relative border border-gray-700 rounded-xl p-6 bg-gray-900">
                 <div className="flex justify-between items-start mb-4">
@@ -261,63 +261,88 @@ export default function Home() {
             </a>
           </div>
         </section>
-             
+        
         {/* CONTACT */}
         <section id="contact" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
-          <div className="text-left space-y-2 text-sm text-pink-500">
-            <p className="flex items-center gap-2 ml-[100px]">
+          <div className="w-full max-w-6xl flex flex-col md:flex-row justify-between gap-12">
+          
+          {/* Contact Form - Left Side */}
+          <form
+            action="https://formspree.io/f/xanjvbvy"
+            method="POST"
+            className="space-y-4 flex-1"
+          >
+            <h2 className="text-3xl font-bold mb-6">Contact</h2>
+            <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
+            
+            <div className="flex flex-col">
+              <label className="text-sm mb-1">Name</label>
+              <input
+                type="text"
+                name="name"
+                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
+                required
+              />
+            </div>
+            
+            <div className="flex flex-col">
+              <label className="text-sm mb-1">Email</label>
+              <input
+                type="email"
+                name="email"
+                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
+                required
+              />
+            </div>
+            
+            <div className="flex flex-col">
+              <label className="text-sm mb-1">Subject</label>
+              <input
+                type="text"
+                name="subject"
+                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
+              />
+            </div>
+      
+            <div className="flex flex-col">
+              <label className="text-sm mb-1">Message</label>
+              <textarea
+                name="message"
+                rows={4}
+                className="p-2 bg-gray-900 border border-gray-700 rounded text-white"
+                required
+              />
+            </div>
+            
+            <button
+              type="submit"
+              className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition"
+            >
+              Send Inquiry
+            </button>
+          </form>
+          
+          {/* Contact Info - Right Side */}
+          <div className="flex-1 space-y-4 mt-10 md:mt-20">
+            <p className="flex items-center gap-3 text-sm">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M1.5 4.5h21a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-21A1.5 1.5 0 0 1 0 18V6a1.5 1.5 0 0 1 1.5-1.5zm0 1.5v.511l10.5 6.737 10.5-6.737V6h-21zm21 1.978-8.93 5.73a1.5 1.5 0 0 1-1.14.255 1.5 1.5 0 0 1-1.14-.255L1.5 7.978V18h21V7.978z" />
               </svg>
-              <a href="mailto:kennedyannsouthern@gmail.com" className="hover:text-pink-600">
+              <a href="mailto:kennedyannsouthern@gmail.com" className="underline hover:text-pink-600">
                 kennedyannsouthern@gmail.com
               </a>
             </p>
-            <p className="flex items-center gap-2">
+            
+            <p className="flex items-center gap-3 text-sm">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1.003 1.003 0 0 1 1.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1c-9.39 0-17-7.61-17-17a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.35.26 2.67.76 3.88a1 1 0 0 1-.21 1.11l-2.2 2.2z" />
               </svg>
-              <a href="tel:+15743614587" className="hover:text-pink-600 ml-[100px]">
+              <a href="tel:+15743614587" className="underline hover:text-pink-600">
                 (574) 361-4587
               </a>
             </p>
-            
-            {/* Contact Form */}
-            <form
-              action="https://formspree.io/f/xanjvbvy"
-              method="POST"
-              className="space-y-4"
-            >
-              <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
-              
-              <div className="flex flex-col">
-                <label className="text-sm mb-1 ml-[90px]">Name</label>
-                <input type="text" name="name" className="p-2 bg-white border border-gray-700 rounded text-white ml-[90px]" required />
-              </div>
-              
-              <div className="flex flex-col">
-                <label className="text-sm mb-1 ml-[90px]">Email</label>
-                <input type="email" name="email" className="p-2 bg-white border border-gray-700 rounded text-white ml-[90px]" required />
-              </div>
-               
-              <div className="flex flex-col">
-                <label className="text-sm mb-1 ml-[90px]">Subject</label>
-                <input type="text" name="subject" className="p-2 bg-white border border-gray-700 rounded text-white ml-[90px]" />
-              </div>
-              
-              <div className="flex flex-col">
-                <label className="text-sm mb-1 ml-[90px]">Message</label>
-                <textarea name="message" rows={4} className="p-2 bg-white border border-gray-700 rounded text-white ml-[90px]" required />
-              </div>
-
-              <button
-                type="submit"
-                className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition ml-[90px]"
-              >
-                Send Inquiry
-              </button>
-            </form>
           </div>
+        </div>
         </section>
       </main>
     </>
