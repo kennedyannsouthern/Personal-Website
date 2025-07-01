@@ -272,7 +272,7 @@ export default function Home() {
             method="POST"
             className="space-y-4 flex-1 ml-[100px]"
           >
-            <h2 className="text-3xl font-bold mb-6 ml-[100px]">Contact</h2>
+            <h2 className="text-3xl font-bold mb-6">Contact</h2>
             <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
             
             <div className="flex flex-col ml-[100px]">
