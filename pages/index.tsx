@@ -11,8 +11,14 @@ export default function Home() {
       </Head>
       
       {/* Hero Layout */}
-      <main className="bg-[#fdeef4] text-white min-h-screen w-full flex flex-col items-center justify-center px-6">
-        <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
+      <main className="bg-[#fdeef4] text-white min-h-screen w-full flex flex-col justify-center px-6">
+        {/* Top-Left Name Title */}
+        <div className="w-full max-w-6xl mb-8">
+          <h1 className="text-3xl font-bold text-left text-pink-500">Kennedy Southern</h1>
+        </div>
+
+  {/* Main Hero Content */}
+  <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
       
           {/* PHOTO - LEFT SIDE */}
           <div className="flex-shrink-0">
