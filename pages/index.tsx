@@ -332,7 +332,7 @@ export default function Home() {
           <div className="w-full flex flex-col items-center md:items-start text-center md:text-left mb-6">
             <h2 className="text-3xl font-bold">Contact</h2>
             <p className="text-pink-500 text-base mt-2">
-              Do you have any suggestions or questions? Fill out this form to reach out.
+              Interested in hiring me? Fill out this form.
             </p>
           </div>
           
