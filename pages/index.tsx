@@ -31,8 +31,7 @@ export default function Home() {
             <p className="text-pink-500 text-lg font-medium">Hi there, I&apos;m</p>
             <h1 className="text-4xl sm:text-5xl font-bold">Kennedy Southern</h1>
             <p className="text-pink-500 text-xl sm:text-2xl font-semibold">Data Analyst</p>
-          </div>
-          
+            
             {/* SOCIAL ICONS */}
             <div className="flex justify-center md:justify-start gap-6 pt-4 text-gray-400 text-xl">
               {/* LinkedIn */}
