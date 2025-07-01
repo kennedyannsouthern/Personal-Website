@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       
       {/* Hero Layout */}
-      <main className="bg-[#fdeef4] text-white min-h-screen w-full flex flex-col items-center justify-center px-6">
+      <main> className="bg-[#fdeef4] text-white min-h-screen w-full flex flex-col items-center justify-center px-6">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
       
           {/* PHOTO - LEFT SIDE */}
