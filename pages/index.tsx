@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Kennedy Southern</title>
         <meta name="description" content="Personal site for Kennedy Southern" />
+        <html lang="en" />
       </Head>
       
       {/* Hero Layout */}
@@ -15,7 +16,10 @@ export default function Home() {
         {/* Nav Bar */}
         <div className="fixed top-0 left-0 right-0 z-50 bg-[#fdeef4] px-6 shadow-md">
           <div className="w-full max-w-6xl flex justify-between items-center pt-6 mb-12">
-            
+            {/* Name and nav */}
+          </div>
+        </div>
+ 
             {/* Left Side: Name */}
             <h1 className="text-3xl sm:text-3xl font-bold ml-[120px]">Kennedy Southern</h1>
             
