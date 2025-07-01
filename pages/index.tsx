@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       
       {/* Hero Layout */}
-      <main> className="bg-[#fdeef4] text-white min-h-screen w-full flex flex-col items-center justify-center px-6">
+      <main className="bg-[#fdeef4] text-white min-h-screen w-full flex flex-col items-center justify-center px-6">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl w-full">
       
           {/* PHOTO - LEFT SIDE */}
@@ -114,7 +114,7 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-4 pt-4">
               {[
                 'R', 'SAS', 'SQL', 'Python', 'Excel', 'Tableau',
-                'Power BI', 'GitHub', 'Google Analytics', 'Microsoft Office'
+                'Power BI', 'GitHub', 'Google Analytics', 'Microsoft Office',
                 'JavaScript', 'Tailwind Css'
               ].map((skill) => (
                 <span
@@ -255,7 +255,7 @@ export default function Home() {
             {/* Contact Form */}
             <form
               action="https://formspree.io/f/xanjvbvy"
-              method="POST'
+              method="POST"
               className="space-y-4"
             >
               <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
