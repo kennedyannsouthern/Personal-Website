@@ -265,7 +265,7 @@ export default function Home() {
         {/* CONTACT */}
         <section id="contact" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
           <div className="text-left space-y-2 text-sm text-pink-500">
-            <p className="flex items-center gap-2">
+            <p className="flex items-center gap-2 ml-[100px]">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M1.5 4.5h21a1.5 1.5 0 0 1 1.5 1.5v12a1.5 1.5 0 0 1-1.5 1.5h-21A1.5 1.5 0 0 1 0 18V6a1.5 1.5 0 0 1 1.5-1.5zm0 1.5v.511l10.5 6.737 10.5-6.737V6h-21zm21 1.978-8.93 5.73a1.5 1.5 0 0 1-1.14.255 1.5 1.5 0 0 1-1.14-.255L1.5 7.978V18h21V7.978z" />
               </svg>
@@ -277,7 +277,7 @@ export default function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1.003 1.003 0 0 1 1.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 0 1 1 1v3.5a1 1 0 0 1-1 1c-9.39 0-17-7.61-17-17a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.35.26 2.67.76 3.88a1 1 0 0 1-.21 1.11l-2.2 2.2z" />
               </svg>
-              <a href="tel:+15743614587" className="hover:text-pink-600">
+              <a href="tel:+15743614587" className="hover:text-pink-600 ml-[100px]">
                 (574) 361-4587
               </a>
             </p>
@@ -291,28 +291,28 @@ export default function Home() {
               <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
               
               <div className="flex flex-col">
-                <label className="text-sm mb-1 ml-[150px]">Name</label>
-                <input type="text" name="name" className="p-2 bg-white border border-gray-700 rounded text-white" required />
+                <label className="text-sm mb-1 ml-[90px]">Name</label>
+                <input type="text" name="name" className="p-2 bg-white border border-gray-700 rounded text-white ml-[90px]" required />
               </div>
               
               <div className="flex flex-col">
-                <label className="text-sm mb-1 ml-[150px]">Email</label>
-                <input type="email" name="email" className="p-2 bg-white border border-gray-700 rounded text-white ml-[150px]" required />
+                <label className="text-sm mb-1 ml-[90px]">Email</label>
+                <input type="email" name="email" className="p-2 bg-white border border-gray-700 rounded text-white ml-[90px]" required />
               </div>
                
               <div className="flex flex-col">
-                <label className="text-sm mb-1 ml-[150px]">Subject</label>
-                <input type="text" name="subject" className="p-2 bg-white border border-gray-700 rounded text-white ml-[150px]" />
+                <label className="text-sm mb-1 ml-[90px]">Subject</label>
+                <input type="text" name="subject" className="p-2 bg-white border border-gray-700 rounded text-white ml-[90px]" />
               </div>
               
               <div className="flex flex-col">
-                <label className="text-sm mb-1 ml-[150px]">Message</label>
-                <textarea name="message" rows={4} className="p-2 bg-white border border-gray-700 rounded text-white ml-[150px]" required />
+                <label className="text-sm mb-1 ml-[90px]">Message</label>
+                <textarea name="message" rows={4} className="p-2 bg-white border border-gray-700 rounded text-white ml-[90px]" required />
               </div>
 
               <button
                 type="submit"
-                className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition ml-[150px]"
+                className="mt-4 w-full bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-600 transition ml-[90px]"
               >
                 Send Inquiry
               </button>
