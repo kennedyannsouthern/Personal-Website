@@ -8,7 +8,6 @@ export default function Home() {
       <Head>
         <title>Kennedy Southern</title>
         <meta name="description" content="Personal site for Kennedy Southern" />
-        <html lang="en" />
       </Head>
       
       {/* Hero Layout */}
