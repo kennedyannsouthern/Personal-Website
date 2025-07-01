@@ -16,7 +16,7 @@ export default function Home() {
         <div className="w-full max-w-6xl flex justify-between items-center pt-6 mb-12">
     
           {/* Left Side: Name */}
-          <h1 className="text-4xl sm:text-5xl font-bold ml-[192px]">Kennedy Southern</h1>
+          <h1 className="text-3xl sm:text-5xl font-bold ml-[192px]">Kennedy Southern</h1>
 
           {/* Right Side: Navigation Buttons */}
           <nav className="flex gap-4">
