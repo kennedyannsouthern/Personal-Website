@@ -262,7 +262,7 @@ export default function Home() {
                 type="text"
                 name="name"
                 placeholder="Full name"
-                className="p-2 bg-white border border-gray-700 rounded text-white"
+                className="p-2 bg-white border border-gray-700 rounded text-black"
                 required
               />
             </div>
@@ -273,7 +273,7 @@ export default function Home() {
                 type="email"
                 name="email"
                 placeholder="Email address"
-                className="p-2 bg-white border border-gray-700 rounded text-white"
+                className="p-2 bg-white border border-gray-700 rounded text-black"
                 required
               />
             </div>
@@ -284,7 +284,7 @@ export default function Home() {
                 type="text"
                 name="subject"
                 placeholder="Subject"
-                className="p-2 bg-white border border-gray-700 rounded text-white"
+                className="p-2 bg-white border border-gray-700 rounded text-black"
               />
             </div>
 
@@ -294,7 +294,7 @@ export default function Home() {
                 name="message"
                 rows={4}
                 placeholder="Type message"
-                className="p-2 bg-white border border-gray-700 rounded text-white"
+                className="p-2 bg-white border border-gray-700 rounded text-black"
                 required
               />
             </div>
