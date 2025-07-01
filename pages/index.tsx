@@ -21,7 +21,7 @@ export default function Home() {
             
             {/* Name */}
             <h1
-              className="text-5x1 font-bold text-pink-500 whitespace-nowrap">
+              className="text-3xl font-bold text-pink-500 whitespace-nowrap">
               Kennedy Southern
             </h1>
             
