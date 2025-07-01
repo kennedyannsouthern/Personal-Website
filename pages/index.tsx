@@ -46,13 +46,12 @@ export default function Home() {
             </nav>
             
             {/* Mobile Menu */}
-            <button
+            <button 
               className="md:hidden text-black"
-              onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
-              aria-label="Toggle navigation"
+              onClick={toggleMenu}
             >
               <svg
-                className="w-6 h-6 text-black"
+                className="w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -66,9 +65,9 @@ export default function Home() {
           {/* Mobile Menu Dropdown */}
           {isMobileMenuOpen && (
             <div className="md:hidden bg-[#fdeef4] shadow-inner px-6 pb-4 text-black">
-              <a href="#home" className="block py-2 text-black hover:bg-pink-100 rounded">Home</a>
-              <a href="#about" className="block py-2 text-black hover:bg-pink-100 rounded">About Me</a>
-              <a href="#contact" className="block py-2 text-black hover:bg-pink-100 rounded">Contact</a>
+              <a href="#home" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">Home</a>
+              <a href="#about" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">About Me</a>
+              <a href="#contact" className="block py-2 text-pink-500 hover:bg-pink-100 rounded">Contact</a>
             </div>
           )}
         </div>
