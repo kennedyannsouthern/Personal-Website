@@ -222,7 +222,11 @@ export default function Home() {
               <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4 w-full">
                   {/* Logo (Left) */}
-                  <img src="/logos/company1.png" alt="Company Logo" className="w-10 h-10 object-contain" />
+                  <img
+                    src="/logos/Shah.png"
+                    alt="Company Logo"
+                    className="w-10 h-10 object-contain"
+                  />
                   {/* Briefcase and Year (Right) */}
                   <div className="flex items-center gap-2">
                     <svg
