@@ -271,8 +271,8 @@ export default function Home() {
 
             {/* Contact Info */}
             <div className="text-center space-y-2 text-gray-300 text-sm">
-              <p>Email: <a href="mailto:kennedyannsouthern@gmail.com" className="underline hover:text-[#6c63ff]">kennedyannsouthern@gmail.com</a></p>
-              <p>Phone: <a href="tel:+15743614587" className="underline hover:text-[#6c63ff]">(574) 361-4587</a></p>
+              <p>Email: <a href="mailto:kennedyannsouthern@gmail.com" className="underline hover:text-pink-500">kennedyannsouthern@gmail.com</a></p>
+              <p>Phone: <a href="tel:+15743614587" className="underline hover:text-pink-500">(574) 361-4587</a></p>
             </div>
 
             {/* Contact Form */}
