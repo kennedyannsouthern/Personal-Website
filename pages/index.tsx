@@ -60,9 +60,9 @@ export default function Home() {
           
           {/* TEXT - RIGHT SIDE */}
           <div className="text-center md:text-left space-y-4">
-            <p className="text-pink-500 text-lg font-medium ml-[200px]">Hi there, I&apos;m</p>
-            <h1 className="text-4xl sm:text-5xl font-bold ml-[200px]">Kennedy Southern</h1>
-            <p className="text-pink-500 text-xl sm:text-2xl font-semibold ml-[200px]">Data Analyst</p>
+            <p className="text-pink-500 text-lg font-medium ml-[100px]">Hi there, I&apos;m</p>
+            <h1 className="text-4xl sm:text-5xl font-bold ml-[100px]">Kennedy Southern</h1>
+            <p className="text-pink-500 text-xl sm:text-2xl font-semibold ml-[100px]">Data Analyst</p>
             
             {/* SOCIAL ICONS */}
             <div className="flex justify-center md:justify-start gap-6 pt-4 text-gray-400 text-xl">
