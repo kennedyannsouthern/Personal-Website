@@ -210,7 +210,7 @@ export default function Home() {
         
         {/* My EXPERIENCES */}
         <section className="bg-white text-pink-500 px-6 py-24 flex justify-center">
-          <div className="max-w-3xl w-full space-y-12">
+          <div className="max-w-6xl w-full space-y-12 px-4 md:px-8">
             <div className="text-center space-y-6">
               <h2 className="text-3xl font-bold">My Experiences</h2>
               <p className="text-pink-500 text-lg leading-relaxed">
@@ -222,7 +222,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-6">
               
               {/* Shah Properties LLC */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-x1 p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+              <div className="w-full md:w-[50%] relative border border-gray-700 rounded-x1 p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4 w-full">
                   {/* Logo (Left) */}
                   <img
@@ -259,7 +259,7 @@ export default function Home() {
               </div>
               
               {/* Symbiosis */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+              <div className="w-full md:w-[50%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4">
                   <img src="/logos/company2.png" alt="Company Logo" className="w-10 h-10 object-contain" />
                   <span className="bg-pink-100 text-pink-600 font-bold text-xs px-3 py-1 rounded-full shadow-sm">2019 – 2021</span>
@@ -277,7 +277,7 @@ export default function Home() {
               </div>
               
               {/* University of Michigan */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+              <div className="w-full md:w-[50%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4">
                   <img
                     src="/logos/U-M.png"
@@ -299,7 +299,7 @@ export default function Home() {
               </div>
               
               {/* Manchester University */}
-              <div className="w-full md:w-[48%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+              <div className="w-full md:w-[50%] relative border border-gray-700 rounded-xl p-6 bg-white transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
                 <div className="flex justify-between items-start mb-4">
                   <img
                     src="/logos/MU.png"
