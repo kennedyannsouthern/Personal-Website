@@ -37,17 +37,20 @@ export default function Home() {
             <nav className="hidden md:flex gap-4">
               <a
                 href="#home"
-                className="px-4 py-2 rounded-full bg-white text-pink-500 font-semibold shadow hover:bg-pink-100 transition">
+                className="px-4 py-2 rounded-full text-pink-500 font-semibold transition hover:bg-white hover:shadow"
+              >
                 Home
               </a>
               <a
                 href="#about"
-                className="px-4 py-2 rounded-full bg-white text-pink-500 font-semibold shadow hover:bg-pink-100 transition">
+                className="px-4 py-2 rounded-full text-pink-500 font-semibold transition hover:bg-white hover:shadow"
+              >
                 About Me
               </a>
               <a
                 href="#contact"
-                className="px-4 py-2 rounded-full bg-white text-pink-500 font-semibold shadow hover:bg-pink-100 transition">
+                className="px-4 py-2 rounded-full text-pink-500 font-semibold transition hover:bg-white hover:shadow"
+              >
                 Contact
               </a>
             </nav>
