@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 export default function Home() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,13 +10,23 @@ export default function Home() {
   const toggleMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
-  
+
+export default function Home() {
+  const { ref: contactRef, inView: contactInView } = useInView({
+    threshold: 0.4,
+    triggerOnce: false,
+  });
+    
   return (
     <>
       <Head>
         <title>Kennedy Southern</title>
         <meta name="description" content="Personal site for Kennedy Southern" />
       </Head>
+    <section id="contact" className="bg-[#fdeef4] text-pink-500 px-6 py-24 flex justify-center">
+      <div ref={contactRef} className="w-full max-w-6xl flex flex-col md:flex-row justify-between gap-12">
+
+
       
       {/* Hero Layout */}
       <main
@@ -357,8 +368,14 @@ export default function Home() {
             method="POST"
             className="space-y-4 flex-1"
           >
-            <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Get In Touch</h2>
-            <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
+            <div className="text-center md:text-left">
+              <h2 className="text-3xl font-bold mb-6 text-center md:text-left">Get In Touch
+                <span className={`absolute left-0 bottom-0 h-1 bg-pink-500 transition-all duration-500 ${contactInView ? 'w-full' : 'w-0'}`}></span>
+              </h2>
+              <p className="text-sm mt-2">
+              Do you have any suggestions or questions? Fill out this form to reach out.
+            </p>
+              <input type="hidden" name="_subject" value="New submission from Kennedy's site" />
 
             <div className="flex flex-col">
               <label className="text-sm mb-1">Name</label>
